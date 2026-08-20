@@ -1,0 +1,6 @@
+student_id,name,age,subjects,total_marks,average_marks
+G8,Nivas,20,java:90.0;python:87.0,177.0,88.5
+LE12,Sanju,20,java:98.0;python:89.0,187.0,93.5
+D3,Srinidi,20,java:90.0;python:79.0,169.0,84.5
+F8,Ashu,19,java:79.0;python:69.0,148.0,74.0
+D0,Deepu,20,java:89.0;python:90.0,179.0,89.5

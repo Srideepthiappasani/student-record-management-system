@@ -1,0 +1,21 @@
+from colorama import Fore, Back, Style, init
+
+# Initialize Colorama
+init(autoreset=True)
+
+
+class Colors:
+
+    HEADER = Fore.CYAN + Style.BRIGHT
+
+    SUCCESS = Fore.GREEN + Style.BRIGHT
+
+    ERROR = Fore.RED + Style.BRIGHT
+
+    WARNING = Fore.YELLOW + Style.BRIGHT
+
+    INFO = Fore.BLUE + Style.BRIGHT
+
+    MENU = Fore.MAGENTA + Style.BRIGHT
+
+    RESET = Style.RESET_ALL
