@@ -102,36 +102,6 @@ student-record-management-system/
 └── README.md
     └── Project documentation
     
-## 🏗️ Project Architecture
-
-The project follows a modular architecture that separates different responsibilities of the application.
-
-```text
-                    ┌─────────────────────────┐
-                    │        main.py          │
-                    │   Application Entry     │
-                    └────────────┬────────────┘
-                                 │
-              ┌──────────────────┼──────────────────┐
-              │                  │                  │
-              ▼                  ▼                  ▼
-       ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-       │    Auth     │    │    Menu     │    │  Services   │
-       │             │    │             │    │             │
-       └─────────────┘    └─────────────┘    └──────┬──────┘
-                                                    │
-                            ┌───────────────────────┼──────────────────┐
-                            │                       │                  │
-                            ▼                       ▼                  ▼
-                     ┌─────────────┐        ┌─────────────┐    ┌─────────────┐
-                     │   Models    │        │    Data     │    │    Utils    │
-                     │             │        │             │    │             │
-                     └─────────────┘        └─────────────┘    └─────────────┘
-
-
-
- 
-
 
 🚀 Getting Started
 
@@ -450,3 +420,10 @@ Development Stage: Portfolio / Educational Project
 Srideepthi Appasani
 
 B.Tech — Computer Science & Engineering (AI&ML)
+
+
+
+
+ 
+
+
